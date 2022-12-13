@@ -11,7 +11,13 @@ public class zPattern {
                 {
                     System.out.print("1");
                 }
+                //Create Vertical Line
+                else if(i+j==numTiles-1)
+                {
+                    System.out.print("1");
+                }
             }
+            System.out.println();
         }
         System.out.println("<--End Program-->");
     }
