@@ -16,7 +16,13 @@ public class zPattern {
                 {
                     System.out.print("1");
                 }
+                //Stagger Vertical Line
+                else
+                {
+                    System.out.print(" ");
+                }
             }
+            //Update each line with break
             System.out.println();
         }
         System.out.println("<--End Program-->");
