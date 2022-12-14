@@ -34,7 +34,14 @@ public class zPattern {
         {
             for(int j=0; j<secondNumTiles; j++)
             {
+                //Create the Horizontal Lines
+                if(i%2==0)
+                {
+                    System.out.print("1");
+                }
             }
+            //Update each line with break
+            System.out.println();
         }
         System.out.println("<--End Program-->");
     }
