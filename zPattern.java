@@ -39,6 +39,16 @@ public class zPattern {
                 {
                     System.out.print("1");
                 }
+                //Create Connecting Right Edge
+                else if((i-1)%4==0 & j==secondNumTiles-1)
+                {
+                    System.out.print("1");
+                }
+                //Create Connecting Left Edge
+                else if((i+1)%4==0 && j==0){
+                    System.out.print("1");
+                }
+          
             }
             //Update each line with break
             System.out.println();
