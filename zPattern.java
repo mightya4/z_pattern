@@ -48,7 +48,11 @@ public class zPattern {
                 else if((i+1)%4==0 && j==0){
                     System.out.print("1");
                 }
-          
+                //Create Empty Spaces to Alternate Edges
+                else
+                {
+                    System.out.print(" ");
+                }
             }
             //Update each line with break
             System.out.println();
