@@ -26,5 +26,16 @@ public class zPattern {
             System.out.println();
         }
         System.out.println("<--End Program-->");
+
+        //Pattern 2
+        int secondNumTiles = 8;
+        System.out.println("<--Start Program-->");
+        for(int i=0; i<secondNumTiles; i++)
+        {
+            for(int j=0; j<secondNumTiles; j++)
+            {
+            }
+        }
+        System.out.println("<--End Program-->");
     }
 }
