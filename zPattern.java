@@ -70,5 +70,15 @@ public class zPattern {
         }
         System.out.println("<--End Program-->");
 
+        System.out.println("<--Start Program-->");
+        //Count even numbers
+        int[] numbers = {1, 4, 3, 6, 8, 5, 3, 1, 9, 7};
+        int result = 0;
+        for(int i = 0; i < numbers.length; i++) {
+            result += (numbers[i] % 2 == 0 ? 1 : 0);
+        }
+        System.out.println(result);
+        System.out.println("<--End Program-->");
+
     }
 }
