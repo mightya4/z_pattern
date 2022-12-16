@@ -80,5 +80,15 @@ public class zPattern {
         System.out.println(result);
         System.out.println("<--End Program-->");
 
+        System.out.println("<--Start Program-->");
+        //Find array average
+        int[] numbersTwo = {1, 4, 3, 6, 8, 5, 3, 1, 9, 7};
+        double resultTwo = 0.0;
+        for(int i = 0; i < numbersTwo.length; i++) {
+            resultTwo += numbersTwo[i];
+        }
+        resultTwo /= numbersTwo.length;
+        System.out.println(resultTwo);
+        System.out.println("<--End Program-->");
     }
 }
