@@ -58,5 +58,17 @@ public class zPattern {
             System.out.println();
         }
         System.out.println("<--End Program-->");
+
+        System.out.println("<--Start Program-->");
+        //Print Alternating Symbols in Shape of Triangle
+        for(int j=0; j<5; j++){
+            for(int i=0; i<=j; i++){
+                System.out.print(((i+j)%2==0 ? "*" : "#"));
+            }
+            System.out.println();
+
+        }
+        System.out.println("<--End Program-->");
+
     }
 }
