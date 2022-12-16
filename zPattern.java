@@ -90,5 +90,17 @@ public class zPattern {
         resultTwo /= numbersTwo.length;
         System.out.println(resultTwo);
         System.out.println("<--End Program-->");
+
+        System.out.println("<--Start Program-->");
+        //Count Number of Equal Pairs in Array
+        int[] numbersThree = {1, 4, 3, 6, 8, 5, 3, 1, 9, 7};
+        int resultThree = 0;
+        for(int i=0; i < numbersThree.length; i++) {
+            for(int j=i+1; j < numbersThree.length; j++) {
+                resultThree += (numbersThree[i] == numbersThree[j] ? 1 : 0);
+            }
+        }
+        System.out.println(resultThree);
+        System.out.println("<--End Program-->");
     }
 }
