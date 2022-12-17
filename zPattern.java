@@ -102,5 +102,12 @@ public class zPattern {
         }
         System.out.println(resultThree);
         System.out.println("<--End Program-->");
+
+        System.out.println("<--Start Program-->");
+        //Count Number of Odd Pairs in Array
+        int[] numbersFour = {1, 4, 3, 6, 8, 5, 3, 1, 9, 7};
+        int resultFour = 0;
+        
+        System.out.println("<--End Program-->");
     }
 }
