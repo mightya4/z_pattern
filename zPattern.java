@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 public class zPattern {
     public static void main(String[] args) {
         int numTiles = 8;
@@ -104,10 +107,15 @@ public class zPattern {
         System.out.println("<--End Program-->");
 
         System.out.println("<--Start Program-->");
-        //Count Number of Odd Pairs in Array
-        int[] numbersFour = {1, 4, 3, 6, 8, 5, 3, 1, 9, 7};
-        int resultFour = 0;
-        
+        //Print Reversed Array
+        List<Integer> originalArray = new ArrayList<Integer>(Arrays.asList(1, 4, 3, 6, 8, 5, 3, 1, 9, 7));
+        ArrayList<Integer> reversedArray = new ArrayList<Integer>();
+        for(int i = originalArray.size() - 1; i >= 0; i--){
+            reversedArray.add(originalArray.get(i));
+        }
+
+        System.out.println("Original Array: " + originalArray);
+        System.out.println("Reversed Array: "+ reversedArray);
         System.out.println("<--End Program-->");
     }
 }
